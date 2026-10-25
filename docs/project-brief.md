@@ -14,15 +14,6 @@ Reduce product registration effort, starting with pricing. Given a request such 
 
 Photos, listings, catalog management, marketplace publication and price mutation are outside this MVP. All price application requires human approval; no application tool is planned for the initial demo.
 
-## Milestones
-
-1. Saturday, October 24: executable domain calculator, unit tests, documented assumptions and local project setup.
-2. Saturday, after provider confirmation: typed product/rule/calculation tools, provider adapter, single-analyst tool loop, persisted real LLM run and explicit missing-data response.
-3. Sunday, October 25: bounded harness with validation, permissions, cancellation, timeouts, no-progress detection, separate retry/review budgets and evaluation evidence. Complete tools-only baseline before adding an independent reviewer.
-4. Sunday, remaining time: compare bounded reflection and adaptive planning/collaboration if implemented; write demo script, architecture explanation, limitations, learning log and contribution record. Freeze a reproducible demo before adding UI or MCP.
-
-These were the initial delivery targets; see the immediate-continuation status below for implemented capabilities. If time is constrained, prioritize verified calculations and real tools-only evidence over reviewer or web UI.
-
 ## Boundaries
 
 Domain arithmetic must use decimal and documented units/rounding. Tool and rule validation must distinguish facts, estimates and pending information. Rates require identity, source, effective dates and validation status. Unknown inputs cannot silently become zero. Do not claim net profit from incomplete overhead allocation.
