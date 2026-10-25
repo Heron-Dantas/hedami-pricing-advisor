@@ -2,9 +2,11 @@
 
 ## Owner and purpose
 
-Heron Dantas, Volvo Group Chapter Lead / Tech Lead and owner of HEDAMI 3D Labs, is building this prototype for a Principal Digital Product Owner recruitment process. He brings C#/.NET, Angular, Azure and architecture experience and participates in design decisions. Codex assists implementation; generated work must be reviewed and understood by Heron. No review or authorship claims beyond recorded evidence.
+Heron Dantas, owner of HEDAMI Labs and Chapter Lead / Tech Lead at Volvo Group, is developing this personal project to explore practical applications of agentic AI in his 3D printing business.
 
-External deadline: October 26, 2026, end of business. Internal target: Sunday, October 25, 2026 (America/Sao_Paulo).
+The project builds on his longstanding interest in using AI to support product pricing, content creation and business operations. It combines his C#/.NET, Angular, Azure and software architecture experience with hands-on experimentation in tool use, agent orchestration, evaluation and human oversight.
+
+Heron defines the business objectives, scope and architectural direction. Codex supports implementation, testing and documentation. AI-generated contributions remain subject to human review, and implementation claims are grounded in recorded evidence.
 
 ## Product
 
