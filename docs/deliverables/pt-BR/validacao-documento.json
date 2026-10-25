@@ -1,0 +1,87 @@
+{
+  "arquivo": "HEDAMI-Pricing-Advisor-Guia-Pessoal-pt-BR.docx",
+  "sha256": "94fd6f75a224a0d1d9cb4c70644984ebef9c013f37a4dd75651db68f07d33d71",
+  "verificacoes": [
+    {
+      "verificacao": "Integridade ZIP",
+      "aprovada": true
+    },
+    {
+      "verificacao": "XML e relacionamentos válidos",
+      "aprovada": true
+    },
+    {
+      "verificacao": "22 capítulos com navegação",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Seis imagens incorporadas com descrição",
+      "aprovada": true
+    },
+    {
+      "verificacao": "22 tabelas preservadas",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Identificado como material pessoal, não apresentação final",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Marcadores de geração resolvidos",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Sem padrões de chave de API",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Sem chamadas editoriais inglesas não traduzidas",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Campo de numeração de páginas mantido",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Idioma pt-BR configurado",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Valores e distinção de contagens preservados",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Segunda fase permanece no último capítulo",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Todos os trechos e comandos iguais aos da edição inglesa",
+      "aprovada": true
+    },
+    {
+      "verificacao": "17 trechos de código originais",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Hashes dos arquivos de origem conferem",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Word inglês preservado byte a byte",
+      "aprovada": true
+    },
+    {
+      "verificacao": "Extração legível pelo textutil com acentos",
+      "aprovada": true
+    }
+  ],
+  "contagens": {
+    "capitulos": 22,
+    "diagramas": 6,
+    "tabelasIncluindoCapa": 22,
+    "trechosDeCodigo": 17,
+    "palavrasDaFonte": 15216
+  },
+  "observacaoVisual": "Diagramas em português inspecionados em montagem. A renderização completa das páginas do Word não foi realizada; permanece a restrição de Quick Look registrada na edição inglesa.",
+  "impacto": "Somente documentação; aplicação, instruções de runtime, versão inglesa e orçamento de API preservados."
+}

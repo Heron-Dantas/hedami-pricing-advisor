@@ -1,0 +1,168 @@
+{
+  "evidenceAsOf": "2026-10-24",
+  "files": [
+    {
+      "path": "global.json",
+      "sha256": "de47995fdee948eed97787ed72936761ac8c733cdda8a910d6ece236715159c1"
+    },
+    {
+      "path": "runtime-skills/analyze-profitability.md",
+      "sha256": "eee4e3a05e2b9ef31da1886cec7999bea426bd415e769551fb448b2a5202e949"
+    },
+    {
+      "path": "runtime-skills/review-pricing.md",
+      "sha256": "df3dff5e5bd4d9e4be9f4e16c02d720a5c5b1c9fcace1faa6f43d8c8f123b66f"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Application/Agents/PricingReview.cs",
+      "sha256": "3898d3ac3b95c0b0ddb9e8ce46ddc55449985a280486afee3a3f8390c75f9081"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Application/Agents/RuntimeInstructions.cs",
+      "sha256": "a4870c99a220a5ae796dfae2a4e31f369e93647172e555b302729f0d9b2b9699"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Application/Harness/FeedbackContext.cs",
+      "sha256": "8f5bab4b44f70009944fd043a30b61ad819c63afc912b3fa1b1e18b9fc39c0b3"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Application/Harness/JsonRunStore.cs",
+      "sha256": "9a8fdc48c98de6110cb39dd89e07f04ac5e008f1112b21262a63c2dee3f3814b"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Application/Harness/PricingHarness.cs",
+      "sha256": "3daf035fd87a37a6bb484bc6a9c7b409c69e9f85709a47343dfda72a9b0e1ecd"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Application/Harness/RunContracts.cs",
+      "sha256": "a5b16f20114d53bf900849e63b3138ec8438123f4a38955e9e07bd4779702d45"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Application/Models/OpenAiResponsesClient.cs",
+      "sha256": "7f1856d7129d3622ac1d41c8e2b277bd68fd3235fe9e45dca8dff415773583b1"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Application/Serialization.cs",
+      "sha256": "ae7832a7d8401b0000545a2757033954a3bee23d402bb1872f038c3e741ad1fd"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Application/Tools/PricingData.cs",
+      "sha256": "d9b42b4cf438a3fe310b48d13581a42ea56dabdbd0861e1b7460d3ec9b836c52"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Application/Tools/PricingTools.cs",
+      "sha256": "c69885e38022055f04cb72feb1e6669d6ef91d148bb4ef580c695f53e41e9baf"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Application/Tools/ToolContracts.cs",
+      "sha256": "16733eeeb3b46515c27e381d00700d8196d0cb6433bb8e7f4b4e7237492d6fff"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Console/LiveEvaluations.cs",
+      "sha256": "bbf77936b12e2f66d395e1026f66a2ff203ba8a1d86ca027cfc5a363dd5f5372"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Console/LocalConfiguration.cs",
+      "sha256": "1644d23905e92ced21d51babdd9d0a9ea40fb0d319e92c4ea69b91a69e18923b"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Console/Program.cs",
+      "sha256": "5157c3c38b2d6d63d0f3d26ba5eab83111c104b27413402011c6965482a3f1b6"
+    },
+    {
+      "path": "src/Hedami.PricingAdvisor.Domain/PricingCalculator.cs",
+      "sha256": "920660e1fe73eef1de23ef49e91a16e1538ece26da1963c849054b1ca2247a19"
+    },
+    {
+      "path": "tests/Hedami.PricingAdvisor.Domain.Tests/Hedami.PricingAdvisor.Domain.Tests.csproj",
+      "sha256": "fb1c8b7ec26d768765e27f2ad9ffad5b535e91e9b554f2112ce0d0d501e8c87f"
+    }
+  ],
+  "snippets": [
+    {
+      "file": "src/Hedami.PricingAdvisor.Domain/PricingCalculator.cs",
+      "startLine": 4,
+      "endLine": 10
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Domain/PricingCalculator.cs",
+      "startLine": 50,
+      "endLine": 59
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Domain/PricingCalculator.cs",
+      "startLine": 70,
+      "endLine": 79
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Tools/PricingData.cs",
+      "startLine": 27,
+      "endLine": 38
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Tools/ToolContracts.cs",
+      "startLine": 19,
+      "endLine": 21
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Tools/ToolContracts.cs",
+      "startLine": 8,
+      "endLine": 12
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Tools/PricingTools.cs",
+      "startLine": 49,
+      "endLine": 56
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Harness/PricingHarness.cs",
+      "startLine": 43,
+      "endLine": 55
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Harness/PricingHarness.cs",
+      "startLine": 79,
+      "endLine": 89
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Harness/PricingHarness.cs",
+      "startLine": 200,
+      "endLine": 212
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Harness/JsonRunStore.cs",
+      "startLine": 7,
+      "endLine": 18
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Agents/PricingReview.cs",
+      "startLine": 8,
+      "endLine": 9
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Harness/PricingHarness.cs",
+      "startLine": 115,
+      "endLine": 127
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Tools/PricingTools.cs",
+      "startLine": 54,
+      "endLine": 59
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Agents/RuntimeInstructions.cs",
+      "startLine": 9,
+      "endLine": 18
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Models/OpenAiResponsesClient.cs",
+      "startLine": 20,
+      "endLine": 30
+    },
+    {
+      "file": "src/Hedami.PricingAdvisor.Application/Harness/FeedbackContext.cs",
+      "startLine": 25,
+      "endLine": 33
+    }
+  ]
+}

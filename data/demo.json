@@ -1,0 +1,118 @@
+{
+  "products": [
+    {
+      "id": "headset-stand",
+      "name": "Headset stand (synthetic example)",
+      "costs": {
+        "materialGrams": 100,
+        "filamentBrlPerKg": 100,
+        "printHours": 2,
+        "averagePowerKw": 0.1,
+        "energyBrlPerKwh": 1,
+        "printerDepreciationBrlPerHour": 1,
+        "printerMaintenanceBrlPerHour": 0.5,
+        "preparationHours": 0.1,
+        "finishingHours": 0.2,
+        "packingHours": 0.1,
+        "laborBrlPerHour": 20,
+        "packagingBrl": 2,
+        "failureRate": 0.1
+      },
+      "provenance": {
+        "id": "demo-costs-v1",
+        "source": "Synthetic HEDAMI portfolio fixture; not confirmed business data.",
+        "validFrom": "2026-10-24",
+        "validThrough": "2026-10-26",
+        "status": "Demonstration"
+      }
+    },
+    {
+      "id": "missing-material",
+      "name": "Headset stand (synthetic example)",
+      "costs": {
+        "materialGrams": null,
+        "filamentBrlPerKg": 100,
+        "printHours": 2,
+        "averagePowerKw": 0.1,
+        "energyBrlPerKwh": 1,
+        "printerDepreciationBrlPerHour": 1,
+        "printerMaintenanceBrlPerHour": 0.5,
+        "preparationHours": 0.1,
+        "finishingHours": 0.2,
+        "packingHours": 0.1,
+        "laborBrlPerHour": 20,
+        "packagingBrl": 2,
+        "failureRate": 0.1
+      },
+      "provenance": {
+        "id": "demo-costs-v1",
+        "source": "Synthetic HEDAMI portfolio fixture; not confirmed business data.",
+        "validFrom": "2026-10-24",
+        "validThrough": "2026-10-26",
+        "status": "Demonstration"
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "demo-direct",
+      "channel": "Synthetic channel; not Shopee",
+      "channelRate": 0.1,
+      "taxRate": 0,
+      "advertisingRate": 0,
+      "fixedFeeBrl": 2,
+      "provenance": {
+        "id": "demo-rule-v1",
+        "source": "Synthetic illustration: 10% channel fee, explicitly zero tax and advertising, BRL 2 fixed fee. No current marketplace claim.",
+        "validFrom": "2026-10-24",
+        "validThrough": "2026-10-26",
+        "status": "Demonstration"
+      }
+    },
+    {
+      "id": "expired-rule",
+      "channel": "Synthetic channel; not Shopee",
+      "channelRate": 0.1,
+      "taxRate": 0,
+      "advertisingRate": 0,
+      "fixedFeeBrl": 2,
+      "provenance": {
+        "id": "demo-rule-v1",
+        "source": "Synthetic illustration: 10% channel fee, explicitly zero tax and advertising, BRL 2 fixed fee. No current marketplace claim.",
+        "validFrom": "2026-10-24",
+        "validThrough": "2026-10-23",
+        "status": "Demonstration"
+      }
+    },
+    {
+      "id": "missing-fees",
+      "channel": "Synthetic channel; not Shopee",
+      "channelRate": null,
+      "taxRate": 0,
+      "advertisingRate": 0,
+      "fixedFeeBrl": 2,
+      "provenance": {
+        "id": "demo-rule-v1",
+        "source": "Synthetic illustration: 10% channel fee, explicitly zero tax and advertising, BRL 2 fixed fee. No current marketplace claim.",
+        "validFrom": "2026-10-24",
+        "validThrough": "2026-10-26",
+        "status": "Demonstration"
+      }
+    },
+    {
+      "id": "unverified-rule",
+      "channel": "Synthetic channel; not Shopee",
+      "channelRate": 0.1,
+      "taxRate": 0,
+      "advertisingRate": 0,
+      "fixedFeeBrl": 2,
+      "provenance": {
+        "id": "demo-rule-v1",
+        "source": "Synthetic illustration: 10% channel fee, explicitly zero tax and advertising, BRL 2 fixed fee. No current marketplace claim.",
+        "validFrom": "2026-10-24",
+        "validThrough": "2026-10-26",
+        "status": "Unverified"
+      }
+    }
+  ]
+}

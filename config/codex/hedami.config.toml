@@ -1,0 +1,31 @@
+# User-level Codex CLI profile; install as ~/.codex/hedami.config.toml.
+# Selected with: codex --profile hedami
+# Do not combine this with --sandbox or sandbox_mode settings.
+approval_policy = "on-request"
+default_permissions = "hedami-development"
+
+[features]
+network_proxy = true
+
+[permissions.hedami-development]
+description = "HEDAMI development: workspace Git writes and selected network services."
+extends = ":workspace"
+
+[permissions.hedami-development.filesystem.":workspace_roots"]
+".git" = "write"
+".env" = "read"
+
+[permissions.hedami-development.network]
+enabled = true
+
+[permissions.hedami-development.network.domains]
+"github.com" = "allow"
+"api.github.com" = "allow"
+"codeload.github.com" = "allow"
+"*.githubusercontent.com" = "allow"
+"api.openai.com" = "allow"
+"api.nuget.org" = "allow"
+"globalcdn.nuget.org" = "allow"
+"localhost" = "allow"
+"127.0.0.1" = "allow"
+"::1" = "allow"

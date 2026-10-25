@@ -1,0 +1,88 @@
+{
+  "validatedAtUtc": "2026-10-24T19:34:28.084075+00:00",
+  "file": "HEDAMI-Pricing-Advisor-Technical-Guide.docx",
+  "fileSha256": "20d6967e99e590e590ce4c5d1c48816e986e9bed9c9a9fecadd9c274fc03124e",
+  "checks": [
+    {
+      "check": "DOCX ZIP integrity",
+      "passed": true
+    },
+    {
+      "check": "All XML and relationship parts parse",
+      "passed": true
+    },
+    {
+      "check": "22 chapter bookmarks and matching internal navigation",
+      "passed": true
+    },
+    {
+      "check": "Six embedded images with descriptive alternative text",
+      "passed": true
+    },
+    {
+      "check": "No unresolved content directives",
+      "passed": true
+    },
+    {
+      "check": "No API key-like credential pattern",
+      "passed": true
+    },
+    {
+      "check": "All requested central concepts present",
+      "passed": true
+    },
+    {
+      "check": "No placeholder TODO markers",
+      "passed": true
+    },
+    {
+      "check": "No false default 2013 creation timestamp",
+      "passed": true
+    },
+    {
+      "check": "Page-number field present",
+      "passed": true
+    },
+    {
+      "check": "22 source chapters; second phase is final",
+      "passed": true
+    },
+    {
+      "check": "All source snapshot hashes match current files",
+      "passed": true
+    },
+    {
+      "check": "17 actual code excerpts within valid source line ranges",
+      "passed": true
+    },
+    {
+      "check": "Required preserved reports and feedback trace exist",
+      "passed": true
+    },
+    {
+      "check": "Documented local case count matches inspected test declarations",
+      "passed": true
+    },
+    {
+      "check": "Word package opens through python-docx",
+      "passed": true
+    },
+    {
+      "check": "macOS textutil extracted readable text",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "sourceWords": 14363,
+    "chapters": 22,
+    "figures": 6,
+    "tablesIncludingCover": 22,
+    "actualCodeExcerpts": 17,
+    "localCasesInspected": 57
+  },
+  "visualReview": {
+    "technicalFigures": "Six-figure montage inspected; arrow/label improvements applied.",
+    "fullWordPagination": "Not visually rendered: macOS Quick Look failed sandbox initialization. No claim of full-page rendering. Word content/structure and text extraction were checked."
+  },
+  "runtimeImpact": "Documentation/scripts/assets only; no application credential read and no paid model calls."
+}

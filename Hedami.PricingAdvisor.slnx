@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Hedami.PricingAdvisor.Application/Hedami.PricingAdvisor.Application.csproj" />
+    <Project Path="src/Hedami.PricingAdvisor.Console/Hedami.PricingAdvisor.Console.csproj" />
+    <Project Path="src/Hedami.PricingAdvisor.Domain/Hedami.PricingAdvisor.Domain.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Hedami.PricingAdvisor.Domain.Tests/Hedami.PricingAdvisor.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
